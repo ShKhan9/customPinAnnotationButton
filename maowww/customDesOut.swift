@@ -18,6 +18,7 @@ import UIKit
 
 class customDesOut: UIView {
 
+    @IBOutlet weak var btn: UIButton!
     @IBOutlet weak var bkView: UIView!
     
    
@@ -41,11 +42,15 @@ class customDesOut: UIView {
         
         self.kmlb.text = NSLocalizedString("maKilo", comment:"")
         
-        self.deslb.text = NSLocalizedString("maDesLocation", comment:"")
+    }
+    
+    @IBAction func btnClicked(_ sender: Any) {
+        
+        print("jcbhasjbchjasvcajshbvcxjashca")
+        
         
         
     }
-    
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {

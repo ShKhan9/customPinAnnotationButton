@@ -17,6 +17,7 @@
 		704FF87C20038C8800395574 /* customDesOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704FF87A20038C8800395574 /* customDesOut.swift */; };
 		704FF87E20038E4800395574 /* directMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 704FF87D20038E4800395574 /* directMarker.png */; };
 		704FF8812003988200395574 /* directMarker2.png in Resources */ = {isa = PBXBuildFile; fileRef = 704FF8802003988200395574 /* directMarker2.png */; };
+		704FF88320039B6A00395574 /* directMarker3.png in Resources */ = {isa = PBXBuildFile; fileRef = 704FF88220039B6A00395574 /* directMarker3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		704FF87D20038E4800395574 /* directMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directMarker.png; sourceTree = "<group>"; };
 		704FF87F20038EF500395574 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		704FF8802003988200395574 /* directMarker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directMarker2.png; sourceTree = "<group>"; };
+		704FF88220039B6A00395574 /* directMarker3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directMarker3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				704FF87D20038E4800395574 /* directMarker.png */,
 				704FF86520037D0600395574 /* ViewController.swift */,
 				704FF8802003988200395574 /* directMarker2.png */,
+				704FF88220039B6A00395574 /* directMarker3.png */,
 				704FF87920038C8800395574 /* customDes.xib */,
 				704FF87A20038C8800395574 /* customDesOut.swift */,
 				704FF86720037D0600395574 /* Main.storyboard */,
@@ -127,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 704FF85B20037D0600395574 /* Build configuration list for PBXProject "maowww" */;
+			buildConfigurationList = 704FF85B20037D0600395574 /* Build configuration list for PBXProject "customPinAnnotationButton" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,6 +157,7 @@
 				704FF8812003988200395574 /* directMarker2.png in Resources */,
 				704FF87B20038C8800395574 /* customDes.xib in Resources */,
 				704FF86B20037D0600395574 /* Assets.xcassets in Resources */,
+				704FF88320039B6A00395574 /* directMarker3.png in Resources */,
 				704FF87E20038E4800395574 /* directMarker.png in Resources */,
 				704FF86920037D0600395574 /* Main.storyboard in Resources */,
 			);
@@ -333,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		704FF85B20037D0600395574 /* Build configuration list for PBXProject "maowww" */ = {
+		704FF85B20037D0600395574 /* Build configuration list for PBXProject "customPinAnnotationButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				704FF87020037D0600395574 /* Debug */,

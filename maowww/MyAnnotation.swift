@@ -58,7 +58,7 @@ class MyAnnotation: NSObject, MKAnnotation
      var uid: String!
      var type: String!
      var directOrder: Bool!
-    var directData: provItem!
+    var directData: String!
     init(coordinate: CLLocationCoordinate2D, title: String,
          subtitle: String,
          pinColor: PinColor)
@@ -113,7 +113,7 @@ class MyAnnotation: NSObject, MKAnnotation
          uid: String,
          type: String,
          direct:Bool,
-         directData:provItem)
+         directData:String)
     {
         self.coordinate = coordinate
         self.title = title

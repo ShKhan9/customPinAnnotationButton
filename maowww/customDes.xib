@@ -17,37 +17,40 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="customDesOut" customModule="MasryTester" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="208" height="45"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="customDesOut" customModule="maowww" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="284" height="65"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZ4-bu-NBH">
-                    <rect key="frame" x="0.0" y="0.0" width="208" height="45"/>
+                    <rect key="frame" x="0.0" y="0.0" width="284" height="65"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destination" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdt-SR-npT">
-                            <rect key="frame" x="60" y="11" width="128" height="24"/>
-                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="14"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyi-Pa-5re">
+                            <rect key="frame" x="80" y="17" width="194" height="30"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Gcd-vu-QLZ"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" red="0.19215686269999999" green="0.75686274509999996" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="Qdt-SR-npT" secondAttribute="trailing" constant="20" id="7Ta-7O-eMe"/>
-                        <constraint firstItem="Qdt-SR-npT" firstAttribute="centerY" secondItem="AZ4-bu-NBH" secondAttribute="centerY" id="Upq-ud-8Ka"/>
+                        <constraint firstItem="dyi-Pa-5re" firstAttribute="centerY" secondItem="AZ4-bu-NBH" secondAttribute="centerY" id="drK-q5-2sT"/>
+                        <constraint firstAttribute="trailing" secondItem="dyi-Pa-5re" secondAttribute="trailing" constant="10" id="mzi-Eg-xMq"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jt4-WW-e84">
-                    <rect key="frame" x="5" y="0.0" width="45" height="45"/>
+                    <rect key="frame" x="5" y="0.0" width="65" height="65"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cno-Ar-gqz">
-                            <rect key="frame" x="0.0" y="0.0" width="45" height="24"/>
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="16.5"/>
                             <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="14"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Km" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWm-jn-ZPT">
-                            <rect key="frame" x="0.0" y="21" width="45" height="24"/>
+                            <rect key="frame" x="0.0" y="48.5" width="65" height="16.5"/>
                             <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="14"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -69,22 +72,22 @@
                 <constraint firstItem="AZ4-bu-NBH" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="2Qk-v3-xgT"/>
                 <constraint firstItem="AZ4-bu-NBH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4ZH-9e-Uif"/>
                 <constraint firstItem="AZ4-bu-NBH" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="4nO-3l-5MV"/>
-                <constraint firstItem="Qdt-SR-npT" firstAttribute="leading" secondItem="Jt4-WW-e84" secondAttribute="trailing" constant="10" id="5UD-Bg-qgd"/>
                 <constraint firstItem="Jt4-WW-e84" firstAttribute="height" secondItem="AZ4-bu-NBH" secondAttribute="height" id="A6u-Wg-b3C"/>
                 <constraint firstItem="AZ4-bu-NBH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LJ9-y8-dyl"/>
                 <constraint firstItem="Jt4-WW-e84" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="NXp-Nk-C3Y"/>
                 <constraint firstItem="Jt4-WW-e84" firstAttribute="centerY" secondItem="AZ4-bu-NBH" secondAttribute="centerY" id="afI-sH-Qey"/>
+                <constraint firstItem="dyi-Pa-5re" firstAttribute="leading" secondItem="Jt4-WW-e84" secondAttribute="trailing" constant="10" id="ctO-R4-0gl"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="bkView" destination="AZ4-bu-NBH" id="Cze-Ye-YtQ"/>
-                <outlet property="deslb" destination="Qdt-SR-npT" id="Bb6-P4-6jT"/>
+                <outlet property="btn" destination="dyi-Pa-5re" id="M3W-m7-AcR"/>
                 <outlet property="kmlb" destination="BWm-jn-ZPT" id="T3X-DR-L6W"/>
                 <outlet property="leftView" destination="Jt4-WW-e84" id="bMC-1H-mym"/>
                 <outlet property="numKilolb" destination="Cno-Ar-gqz" id="se2-DZ-DYg"/>
             </connections>
-            <point key="canvasLocation" x="-53" y="239.5"/>
+            <point key="canvasLocation" x="-15" y="249.5"/>
         </view>
     </objects>
 </document>
